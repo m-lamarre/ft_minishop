@@ -1,0 +1,80 @@
+body {
+    background-color: #7CDAC8;
+}
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8vh;
+    color: #7CDAC8;
+    text-align: center;
+    text-shadow: 10px 5px 10px #53C0AB;
+    padding: 10px;
+}
+#title_bar {
+    background-color: #F2F2F2;
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.2vh;
+    color: #E1FCF6;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #32A08A;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}
+#home {
+    border: solid 2px #097661;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+#shop {
+    border: solid 2px #097661;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+#sign_up {
+    border: solid 2px #097661;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+#log_in {
+    border: solid 2px #097661;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+a {
+    color: #097661;
+}
+a:hover {
+    color: #53C0AB;
+}
+#table_1 {
+    border: solid 3px #097661;
+    position: fixed;
+    top: 400px;
+    left: 300px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 16pt;
+    color: #097661;
+}
+#user_name {
+    width: 250px;
+    height: 20px;
+}
+#password {
+    width: 250px;
+    height: 20px;
+}
+#submit {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18pt;
+    color: #097661;
+    margin-left: 145px;
+}

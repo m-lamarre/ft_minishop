@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>The Nerd Hut - Home</title>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+            <div id="title_bar">
+            <header>The Nerd Hut</header>
+            <nav>
+                <a id="home" href="homepage.html">HOME</a>&nbsp; &nbsp; &nbsp; &nbsp;
+                <a id="shop"  href="shop.html">SHOP</a>&nbsp; &nbsp; &nbsp; &nbsp;
+                <a id="sign_up" href="sign_up.html">SIGN-UP</a>&nbsp; &nbsp; &nbsp; &nbsp;
+                <a id="log_in" href="log_in.html">LOG IN</a>
+            </nav>
+            </div>
+            <div id="div_1">
+                <h2 id="paragraph_1">Your one stop shop,<br/> for all the things you need<br/> but never knew you wanted!</h2>
+                <img id="yoda_img" src="https://images-na.ssl-images-amazon.com/images/I/61ClMJZpCFL._UX425_.jpg" alt="yoda">
+            </div>
+            <div id="header_1"><h2>Featured Items</h2></div>
+            <div id="div_2">
+                <table id="featured">
+                    <tr>
+                        <td>
+                            <img id="chewie_hoodie" src="http://www.thinkgeek.com/images/products/frontsquare/f000_chewie_costume_hoodie.jpg" alt="chewie hoodie" title="chewie hoodie">
+                            <figcaption>STAR WARS - Chewie Hoodie</figcaption>
+                            <label for="chewie_hood">Quantity</label>
+                            <select name="Quantity" id="chewie_hood">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <button type="submit" style="font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 10pt; color: #005F4C;" >Add to Cart</button>
+                        </td>
+                        <td>
+                            <img id="r2d2_bag" src="http://www.thinkgeek.com/images/products/frontsquare/itvj_sw_premium_backpacks.jpg" alt="r2d2 bag" title="r2d2 bag">
+                            <figcaption>STAR WARS - R2D2 Bag</figcaption>
+                            <label for="r2d2">Quantity</label>
+                            <select name="Quantity" id="r2d2">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <button type="submit" style="font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 10pt; color: #005F4C;" >Add to Cart</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="div_3">
+                <table id="table_2">
+                    <caption>CONTACT US</caption>
+                    <tr>
+                        <td>
+                            Name:
+                        </td>
+                        <td>
+                            <input type="text" id="full_name" required="required" />
+                        </td>
+                    </tr>
+					<tr>
+                        <td>
+                            Email Address:
+                        </td>
+                        <td>
+                            <input type="email" id="email" placeholder="email@domain.com" required="required" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            How can we help you?:
+                        </td>
+                        <td>
+                            <input type="textarea" id="textarea" required="required" />
+                        </td>
+                    </tr>
+                    <tr><td><br/></td></tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit" id="submit">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <footer>
+                    <p>Website created by mlamarre & vivan-de</p>
+                    <p>Copyright &copy; 2016</p>
+                </footer>
+            </div>
+    </body>
+</html>
