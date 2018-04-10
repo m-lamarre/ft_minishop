@@ -1,8 +1,10 @@
-# ft_minishop
+# ft_minishop - A [*We Think Code*](http://www.wethinkcode.co.za/) PHP Project
 
-## Rush00 PHP Bootcamp - ft_minishop
+**Rush00 PHP Bootcamp - ft_minishop**
 
-A [*We Think Code*](http://www.wethinkcode.co.za/) PHP Project
+This was the first of our Web Projects. The second semester of WeThinkCode_ saw the beginning of HTML, CSS and PHP. 
+We had a few days before this project to learn the basics of these web languages. Then this project was started on a Friday and submitted that Sunday. 
+I gravitated towards the front-end and although the website itself was not fully functional, it was a good chance for me to start learning how the front-end gets created and hooks up to the back-end.
 
 ### Screenshots
 
